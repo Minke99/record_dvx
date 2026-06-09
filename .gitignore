@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Recorded data (keep folder structure via .gitkeep)
+recordings/*.h5
+datasets/*.h5
+
+.DS_Store
+*.swp

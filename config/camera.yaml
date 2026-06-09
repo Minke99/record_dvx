@@ -1,0 +1,19 @@
+# DVX recording camera settings.
+# All paths in scripts are relative to the record_dvx/ folder.
+
+input:
+  recording: recordings/dvx_raw.h5
+
+camera:
+  # DVXplorer hardware-side source threshold. Range is normally 0-17, default is 9.
+  contrast_threshold_on: 17
+  contrast_threshold_off: 17
+  crop_area: null
+  global_hold: null
+  global_reset: null
+  readout_fps: null
+  print_available_controls: true
+
+display:
+  frame_interval_ms: 33
+  display_height_px: 720

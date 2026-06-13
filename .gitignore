@@ -5,8 +5,11 @@ __pycache__/
 venv/
 .env
 
-# Recorded data (keep folder structure via .gitkeep)
+# Recorded data: ignore session subdirs and any large media, keep code only
+recordings/*/
 recordings/*.h5
+recordings/*.mp4
+recordings/*.png
 datasets/*.h5
 
 .DS_Store
